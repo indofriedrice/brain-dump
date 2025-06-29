@@ -18,3 +18,16 @@
 ### How To: Run Development Server
 
 - Run with command: `npm run dev`
+
+## How To: Connect to Airtable Database
+
+- Create a .env.local file in root directory
+- Enter the following credentials: 
+VITE_PAT=patOqCOVbn1agQVk3.4f3e28ea015f24700f1f661275b32884b454ffb6089e4835f15658a303e5fd17
+VITE_BASE_ID=appDcTKPEy9q9jNLT
+VITE_TABLE_NAME=Ideas
+
+## Database Schema:
+
+- content (String), category (string), positionX (integer), positionY (integer)
+
